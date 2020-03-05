@@ -2,7 +2,7 @@
  * myTimer.h
  *
  *  Created on:
- *      Author:
+ *      Author: Stephen Hurd
  */
 
 #include <ti/devices/msp432p4xx/driverlib/driverlib.h>
