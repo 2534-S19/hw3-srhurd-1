@@ -2,7 +2,7 @@
  * GPIO.c
  *
  *  Created on:
- *      Author:
+ *      Author: Stephen Hurd
  */
 
 // For the code you place here, you may use your code that uses register references.
@@ -74,6 +74,15 @@ void initGPIO()
 
 
     // Turn off all LEDs at the start.
+      turnOff_LaunchpadLED1();
+      turnOff_LaunchpadLED2Red();
+      turnOff_LaunchpadLED2Blue();
+      turnOff_LaunchpadLED2Green();
+      turnOff_LaunchpadLED2Blue();
+      turnOff_LaunchpadLED2Red();
+      turnOff_LaunchpadLED2Green();
+
+
 }
 
 // TODO: Create a function to return the status of Launchpad Pushbutton S1

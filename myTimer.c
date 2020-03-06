@@ -27,6 +27,7 @@ void initTimer(unsigned int timer, unsigned int preScaler, unsigned int count)
 bool timer0Expired(void)
 {
 
+
 }
 
 // TODO: Write a function that indicates whether Timer1 has expired.
